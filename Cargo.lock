@@ -13,6 +13,7 @@ dependencies = [
  "diesel",
  "dotenv",
  "eyre",
+ "futures 0.3.5",
  "jsonwebtoken",
  "serde 1.0.115",
  "tracing",
@@ -932,6 +933,7 @@ version = "0.3.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8764574ff08b701a084482c3c7031349104b07ac897393010494beaa18ce32c6"
 dependencies = [
+ "futures 0.1.29",
  "futures-channel",
  "futures-core",
  "futures-io",

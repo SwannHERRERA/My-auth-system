@@ -1,5 +1,6 @@
 mod config;
 mod handlers;
+mod models;
 
 use crate::config::Config;
 use actix_web::{middleware::Logger, App, HttpServer};
